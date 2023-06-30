@@ -1,0 +1,166 @@
+{
+    "productos": [
+        {
+            "url": "https://res.cloudinary.com/dkpoxuxs6/image/upload/v1688058846/img-e-commerce/lci0ee63tit1b6kqc900.webp",
+            "categoria": "starwars",
+            "nombre": "Producto XYZ",
+            "precio": 6000,
+            "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habit.Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce!.",
+            "id": 1
+        },
+        {
+            "url": "https://res.cloudinary.com/dkpoxuxs6/image/upload/v1688058847/img-e-commerce/mihgt4zeru4g13avfcuj.webp",
+            "categoria": "starwars",
+            "nombre": "Producto XYZ",
+            "precio": 6000,
+            "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habit.Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce!.",
+            "id": 2
+        },
+        {
+            "url": "https://res.cloudinary.com/dkpoxuxs6/image/upload/v1688058847/img-e-commerce/ptjlwp6yojaeo184ddx0.webp",
+            "categoria": "starwars",
+            "nombre": "Producto XYZ",
+            "precio": 6000,
+            "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habit.Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce!.",
+            "id": 3
+        },
+        {
+            "url": "https://res.cloudinary.com/dkpoxuxs6/image/upload/v1688058846/img-e-commerce/i3resy1tawfwlbek28h2.webp",
+            "categoria": "starwars",
+            "nombre": "Producto XYZ",
+            "precio": 6000,
+            "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habit.Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce!.",
+            "id": 4
+        },
+        {
+            "url": "https://res.cloudinary.com/dkpoxuxs6/image/upload/v1688058846/img-e-commerce/emwwe9dvnun3ze58uhx1.webp",
+            "categoria": "starwars",
+            "nombre": "Producto XYZ",
+            "precio": 6000,
+            "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habit.Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce!.",
+            "id": 5
+        },
+        {
+            "url": "https://res.cloudinary.com/dkpoxuxs6/image/upload/v1688058847/img-e-commerce/svjydvvtpxfbsedapvpd.webp",
+            "categoria": "starwars",
+            "nombre": "Producto XYZ",
+            "precio": 6000,
+            "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habit.Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce!.",
+            "id": 6
+        },
+        {
+            "url": "https://res.cloudinary.com/dkpoxuxs6/image/upload/v1688058845/img-e-commerce/vmu3iu5d8iet3axt9wgm.webp",
+            "categoria": "consolas",
+            "nombre": "Control XYZ",
+            "precio": 6000,
+            "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habit.Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce!.",
+            "id": 7
+        },
+        {
+            "url": "https://res.cloudinary.com/dkpoxuxs6/image/upload/v1688058845/img-e-commerce/eff0fnwohvwzhdd9xowp.webp",
+            "categoria": "consolas",
+            "nombre": "Control y Consola XYZ",
+            "precio": 6000,
+            "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habit.Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce!.",
+            "id": 8
+        },
+        {
+            "url": "https://res.cloudinary.com/dkpoxuxs6/image/upload/v1688058846/img-e-commerce/con21o1xchhvtepdtrwn.webp",
+            "categoria": "consolas",
+            "nombre": "Consola XYZ",
+            "precio": 6000,
+            "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habit.Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce!.",
+            "id": 9
+        },
+        {
+            "url": "https://res.cloudinary.com/dkpoxuxs6/image/upload/v1688058847/img-e-commerce/msyjko55hst9znuvice1.webp",
+            "categoria": "consolas",
+            "nombre": "Control XYZ",
+            "precio": 6000,
+            "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habit.Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce!.",
+            "id": 10
+        },
+        {
+            "url": "https://res.cloudinary.com/dkpoxuxs6/image/upload/v1688058846/img-e-commerce/ynomwaqonmlegw4aal3n.webp",
+            "categoria": "consolas",
+            "nombre": "Consola XYZ",
+            "precio": 6000,
+            "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habit.Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce!.",
+            "id": 11
+        },
+        {
+            "url": "https://res.cloudinary.com/dkpoxuxs6/image/upload/v1688058846/img-e-commerce/n6nhqhi8gean70pcqfnu.webp",
+            "categoria": "consolas",
+            "nombre": "Game Boy Color",
+            "precio": 6000,
+            "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habit.Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce!.",
+            "id": 12
+        },
+        {
+            "url": "https://res.cloudinary.com/dkpoxuxs6/image/upload/v1688058846/img-e-commerce/cnjpxmamikuw2dghjyby.webp",
+            "categoria": "diversos",
+            "nombre": "Camisa Atari",
+            "precio": 6000,
+            "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habit.Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce!.",
+            "id": 13
+        },
+        {
+            "url": "https://res.cloudinary.com/dkpoxuxs6/image/upload/v1688058847/img-e-commerce/kxdnhqvquwku1njwglqw.webp",
+            "categoria": "diversos",
+            "nombre": "Camisa SNES",
+            "precio": 6000,
+            "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habit.Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce!.",
+            "id": 14
+        },
+        {
+            "url": "https://res.cloudinary.com/dkpoxuxs6/image/upload/v1688059172/img-e-commerce/kcndtq6gpg1diqldnvrk.webp",
+            "categoria": "diversos",
+            "nombre": "Control y Consola XYZ",
+            "precio": 6000,
+            "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habit.Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce!.",
+            "id": 15
+        },
+        {
+            "url": "https://res.cloudinary.com/dkpoxuxs6/image/upload/v1688059189/img-e-commerce/sk8fpccmehzezve2bje6.webp",
+            "categoria": "diversos",
+            "nombre": "Control y Consola XYZ",
+            "precio": 6000,
+            "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habit.Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce!.",
+            "id": 16
+        },
+        {
+            "url": "https://res.cloudinary.com/dkpoxuxs6/image/upload/v1688059199/img-e-commerce/sf7efxc2epnuwnlfdfex.webp",
+            "categoria": "diversos",
+            "nombre": "Control y Consola XYZ",
+            "precio": 6000,
+            "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habit.Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce!.",
+            "id": 17
+        },
+        {
+            "url": "https://res.cloudinary.com/dkpoxuxs6/image/upload/v1688059206/img-e-commerce/q6kgjb8vcero9nuqupy4.webp",
+            "categoria": "diversos",
+            "nombre": "Producto XYZ",
+            "precio": 6000,
+            "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habit.Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce!.",
+            "id": 18
+        }
+    ],
+    "usuarios": [
+        {
+            "nombre": "Admi",
+            "email": "admi@gmail.com",
+            "usuario": "admin123",
+            "password": "admin1",
+            "rol": "administrador",
+            "id": 1
+        },
+        {
+            "nombre": "Usuario",
+            "email": "usuario@gmail.com",
+            "usuario": "user123",
+            "password": "user1",
+            "rol": "usuario",
+            "id": 2
+        }
+    ]
+}
