@@ -11,6 +11,7 @@
 </head>
 <body>
     
+    <!-- **** HEADER **** -->
     <header class="header">
         <nav class="container nav">
             <figure class="logo">
@@ -18,7 +19,7 @@
             </figure>
             <div class="nav__box">
                 <div class="box-search">
-                    <input type="text" placeholder="¿Que deseas buscar?">
+                    <input type="text" placeholder="¿Que deseas buscar?" id="input-search">
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </div>
                 <a href="#" class="btn-login">Login</a>
@@ -29,10 +30,18 @@
             <article class="container hero__text">
                 <h1 class="hero__title">Julio Promocional</h1>
                 <p class="hero__paragrahp">Productos seleccionados con 33% de descuento</p>
-                <a href="#" class="hero__btn"></a>
+                <a href="#" class="hero__btn">Ver Consolas</a>
             </article>
         </section>
     </header>
+
+    <!-- **** MOBILE MODAL SEARCH ****  -->
+    <div class="search-modal">
+        <input type="text" placeholder="¿Que deseas buscar?" id="input-search">
+    </div>
     
+
+<script src="app/assets/js/index.js"></script>
+<script type="module" src="app/assets/js/app.js"></script>
 </body>
 </html>

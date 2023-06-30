@@ -1,6 +1,198 @@
 @import url("/app/assets/css/style.css");
 
 .container{
-    width: 90%;
+    max-width: 1500px;
+    width: 100%;
     margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.search-modal{
+    display: none;
+}
+
+/* HEADER STYLES */
+.nav{
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.nav__box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box-search{
+    position: relative;
+    /* background-color: red; */
+    width: 50%;
+}
+
+.box-search input{
+    background-color: var(--gris-claro1);
+    color: var(--gris-oscuro);
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    width: 100%;
+    padding: .6rem 1rem; 
+}
+
+.box-search input::placeholder{
+    color: var(--gris-claro2);
+}
+
+.box-search i{
+    position: absolute;
+    top: 50%;
+    right: 25px;
+    transform: translateY(-50%);
+    color: var(--gris-claro2);
+    font-size: 18px;
+}
+
+.btn-login{
+    color: var(--azul);
+    border: 1px solid var(--azul);
+    text-decoration: none;
+    padding: .6rem 3rem;
+    font-weight: 400;
+    transition: .3s ease;
+}
+
+.btn-login:hover{
+    background-color: var(--azul);
+    color: var(--blanco);
+}
+
+.hero{
+    width: 100%;
+    height: 352px;
+    background-image: url("/app/assets/img/hero.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: end;
+}
+
+.hero__text{
+    padding-bottom: 2rem;
+    color: var(--blanco);
+}
+
+.hero__title{
+    font-size: 3.2rem;
+    padding-bottom: 1rem;
+}
+
+.hero__paragrahp{
+    font-size: 22px;
+    padding-bottom: 2rem;
+}
+
+.hero__btn{
+    background-color: var(--azul);
+    color: var(--blanco);
+    font-size: 16px;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width:768px) {   
+    .nav__box{
+        gap: 1rem;
+    }
+
+    .box-search{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:675px) {
+    .nav__box{
+        flex-direction: row-reverse;
+    }
+
+    .box-search{
+        flex: 0 1 10%;
+    }
+
+    .box-search input{
+        opacity: 0;
+        visibility: hidden;
+    }
+    
+    .box-search i{
+        top: 50%;
+        right: 11px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+
+    .search-modal{
+        display: block;
+        width: 300px;
+        background-color: var(--gris-claro2);
+        position: absolute;
+        top: 12vh;
+        right: 12vh;
+        padding: 1rem;
+        border-radius: 8px;
+        opacity: 0;
+        visibility: hidden;
+        transition: .3s ease-in;
+    }
+
+    .search-modal.show{
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .search-modal input{
+        outline: none;
+        border: none;
+        border-radius: 25px;
+        padding: .8rem;
+        font-size: 16px;
+        color: var(--gris-oscuro);
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:550px) {
+    .container{
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+
+    .nav{
+        gap: .5rem;
+        padding: 2rem 1rem;
+    }
+    
+    .logo{
+        width: 200px;
+        height: 40px;
+    }
+
+    .logo img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .hero__title{
+        font-size: 26px;
+    }
+    
+    .hero__paragrahp{
+        font-size: 14px;
+    }
 }
