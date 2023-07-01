@@ -39,6 +39,77 @@
     <div class="search-modal">
         <input type="text" placeholder="¿Que deseas buscar?" id="input-search">
     </div>
+
+    <!-- **** SECTION PRODUCTS ****-->
+    <section class="container container__products">
+        <article class="products-box star-wars">
+            <div class="products-header">
+                <h1>Star Wars</h1>
+                <a href="#" class="ver-todo">Ver todo
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+            <div class="products__cards" data-category="starwars"></div>
+        </article>
+
+        <article class="products-box consolas">
+            <div class="products-header">
+                <h1>Consolas</h1>
+                <a href="#" class="ver-todo">Ver todo
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+            <div class="products__cards" data-category="consolas"></div>
+        </article>
+
+        <article class="products-box diversos">
+            <div class="products-header">
+                <h1>Diversos</h1>
+                <a href="#" class="ver-todo">Ver todo
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+            <div class="products__cards" data-category="diversos"></div>
+        </article>
+    </section>
+
+    <!-- **** SECTION CONTACT **** -->
+    <section class="container__contact">
+        <article class="container contact-box">
+            <div class="box-logo-items">
+                <figure class="logo-contact">
+                    <img src="app/assets/img/Logo.png" alt="logo">
+                </figure>
+                <ul class="contact-items">
+                    <li class="contact-item">Quienes somos</li>
+                    <li class="contact-item">Politica de privacidad</li>
+                    <li class="contact-item">Programa de fidelidad</li>
+                    <li class="contact-item">Nuestras tiendas</li>
+                    <li class="contact-item">Quiero ser franquiciado</li>
+                    <li class="contact-item">Anuncie aqui</li>
+                </ul>
+            </div>
+            <form class="contact-form">
+                <h6>Hable con nosotros</h6>
+                <div class="form__group group__nombre">
+                    <input type="text" name="nombre" id="nombre" class="form__input input" placeholder=" " required>
+                    <label for="nombre" class="form__label">Nombre</label>
+                    <p class="error">Solo letras y espacios en blanco</p>
+                </div>
+                <div class="form__group">
+                    <textarea name="mensaje" id="mensaje" class="form__input" cols="30" rows="3" placeholder=" " required style="resize: none;"></textarea>
+                    <label for="mensaje" class="form__label">Escribe tu mensaje</label>
+                </div>
+                <button class="form-btn">Enviar mensaje</button>
+            </form>
+        </article>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>Desarrollado por Ronald Millan</p>
+        <p>2023</p>
+    </footer>
     
 
 <script src="app/assets/js/index.js"></script>
