@@ -1,3 +1,18 @@
+.btn-administrador{
+    color: var(--azul);
+    border: 1px solid var(--azul);
+    text-decoration: none;
+    padding: .8rem;
+    font-weight: 400;
+    transition: .3s ease;
+    display: none;
+}
+
+.btn-administrador:hover{
+    background-color: var(--azul);
+    color: var(--blanco);
+}
+
 .productos{
     margin: 4rem auto;
 }
@@ -41,4 +56,12 @@
     color: var(--blanco);
     padding: .8rem;
     text-decoration: none;
+    display: none;
+}
+
+@media screen and (max-width:375px) {
+    .btn-administrador{
+        padding: .4rem 0;
+        font-size: 14px;
+    }
 }

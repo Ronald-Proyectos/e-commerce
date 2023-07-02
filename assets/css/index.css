@@ -82,7 +82,7 @@ header{
 .hero{
     width: 100%;
     height: 352px;
-    background-image: url("/app/assets/img/hero.png");
+    background-image: url("/assets/img/hero.png");
     background-size: cover;
     background-position: center;
     display: flex;

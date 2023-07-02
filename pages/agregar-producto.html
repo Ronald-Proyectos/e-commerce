@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/index.css">
-    <title>AluraGeek</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/index.css">
+    <link rel="stylesheet" href="../assets/css/agregar-producto.css">
+    <title>AluraGeek - Login</title>
 </head>
 <body>
     
@@ -15,24 +16,16 @@
     <header class="header">
         <nav class="container nav">
             <figure class="logo">
-                <img src="assets/img/Logo.png" alt="logo">
+                <img src="../assets/img/Logo.png" alt="logo">
             </figure>
             <div class="nav__box">
                 <div class="box-search">
                     <input type="text" placeholder="¿Que deseas buscar?" id="input-search">
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </div>
-                <a href="pages/login.html" class="btn-login">Login</a>
+                <a href="" class="btn-administrador">Menu Administrador</a>
             </div>
         </nav>
-
-        <section class="hero">
-            <article class="container hero__text">
-                <h1 class="hero__title">Julio Promocional</h1>
-                <p class="hero__paragrahp">Productos seleccionados con 33% de descuento</p>
-                <a href="#" class="hero__btn">Ver Consolas</a>
-            </article>
-        </section>
     </header>
 
     <!-- **** MOBILE MODAL SEARCH ****  -->
@@ -40,37 +33,21 @@
         <input type="text" placeholder="¿Que deseas buscar?" id="input-search">
     </div>
 
-    <!-- **** SECTION PRODUCTS ****-->
-    <section class="container container__products">
-        <article class="products-box star-wars">
-            <div class="products-header">
-                <h1>Star Wars</h1>
-                <a href="pages/todos-los-productos.html" class="ver-todo" data-usuario="usuario">Ver todo
-                    <i class="fa-solid fa-arrow-right"></i>
-                </a>
+    <!-- **** SECTION NEW PRODUCT ****-->
+    <section class="container container__login">
+        <form>
+            <h2>Iniciar Sesion</h2>
+            <div class="form__group group__email">
+                <input type="text" name="email" id="email" class="form__input input" placeholder=" " required>
+                <label for="email" class="form__label">Email</label>
+                <p class="error">Formato de correo invalido</p>
             </div>
-            <div class="products__cards" data-category="starwars"></div>
-        </article>
-
-        <article class="products-box consolas">
-            <div class="products-header">
-                <h1>Consolas</h1>
-                <a href="pages/todos-los-productos.html" class="ver-todo" data-rol="usuario">Ver todo
-                    <i class="fa-solid fa-arrow-right"></i>
-                </a>
+            <div class="form__group group__password">
+                <input type="text" name="password" id="password" class="form__input input" placeholder=" " required>
+                <label for="password" class="form__label">Password</label>
             </div>
-            <div class="products__cards" data-category="consolas"></div>
-        </article>
-
-        <article class="products-box diversos">
-            <div class="products-header">
-                <h1>Diversos</h1>
-                <a href="pages/todos-los-productos.html" class="ver-todo" data-usuario="usuario">Ver todo
-                    <i class="fa-solid fa-arrow-right"></i>
-                </a>
-            </div>
-            <div class="products__cards" data-category="diversos"></div>
-        </article>
+            <button >Entrar</button>
+        </form>
     </section>
 
     <!-- **** SECTION CONTACT **** -->
@@ -78,7 +55,7 @@
         <article class="container contact-box">
             <div class="box-logo-items">
                 <figure class="logo-contact">
-                    <img src="assets/img/Logo.png" alt="logo">
+                    <img src="../assets/img/Logo.png" alt="logo">
                 </figure>
                 <ul class="contact-items">
                     <li class="contact-item">Quienes somos</li>
@@ -112,6 +89,6 @@
     </footer>
     
 
-<script src="assets/js/index.js" type="module"></script>
+<script type="module" src="../assets/js/admin/registrar-producto.js"></script>
 </body>
 </html>
