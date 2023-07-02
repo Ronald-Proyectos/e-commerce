@@ -1,0 +1,44 @@
+.productos{
+    margin: 4rem auto;
+}
+
+.header-productos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.box-productos{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    column-gap: 1rem;
+    row-gap: 4rem;
+}
+
+.box-productos .product__card{
+    position: relative;
+}
+
+.box-productos .product__card i{
+    position: absolute;
+    color: var(--blanco);
+    cursor: pointer;
+}
+
+.box-productos .product__card i.icon-edit{
+    top: 1rem;
+    right: 1rem;
+}
+
+.box-productos .product__card i.icon-delete{
+    top: 1rem;
+    right: 3rem;
+}
+
+.btn-agregar{
+    background-color: var(--azul);
+    color: var(--blanco);
+    padding: .8rem;
+    text-decoration: none;
+}

@@ -1,5 +1,9 @@
 @import url("/app/assets/css/style.css");
 
+body{
+    background-color: var(--gris-claro1);
+}
+
 .container{
     max-width: 1500px;
     width: 100%;
@@ -12,6 +16,10 @@
 }
 
 /* HEADER STYLES */
+header{
+    background-color: var(--blanco);
+}
+
 .nav{
     display: flex;
     align-items: center;
@@ -244,6 +252,7 @@
 }
 
 footer{
+    background-color: var(--blanco);
     text-align: center;
     padding: 3rem 0;
 }

@@ -1,0 +1,31 @@
+.container__login form{
+    width: 350px;
+    margin: 5rem auto;
+    display: grid;
+    gap: 1rem;
+}
+
+.container__login form h2{
+    text-align: center;
+    font-size: 18px;
+}
+
+.container__login form button{
+    background-color: var(--azul);
+    color: var(--blanco);
+    border: none;
+    padding: .8rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width:375px) {
+    .container__login form{
+        width: 100%;
+        min-width: 250px;
+    }
+    
+    .container__login form button{
+        width: 110px;
+        margin: 0 auto;
+    }
+}

@@ -1,7 +1,12 @@
-const modalSearch = document.querySelector(".search-modal")
+import obtenerProductos from "./mostrar-productos.js"
+import modalSearch from "./search-modal.js"
 
+const searchModal = document.querySelector(".search-modal")
 
+const productos = "https://db-wbw6.onrender.com/productos"
 
-document.addEventListener("click", (e) => {
-    if(e.target.matches(".box-search i")) modalSearch.classList.toggle("show")
+modalSearch(searchModal)
+
+document.addEventListener("DOMContentLoaded", () => {
+    obtenerProductos(productos)
 })
