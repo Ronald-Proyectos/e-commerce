@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/index.css">
-    <link rel="stylesheet" href="../assets/css/agregar-producto.css">
-    <title>AluraGeek - Nuevo Producto</title>
+    <link rel="stylesheet" href="../assets/css/ver-producto.css">
+    <title>AluraGeek - Ver Producto</title>
 </head>
 <body>
     
@@ -23,7 +23,10 @@
                     <input type="text" placeholder="¿Que deseas buscar?" id="input-search">
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </div>
-                <a href="" class="btn-administrador">Menu Administrador</a>
+                <div class="box-btn">
+                    <a href="../pages/login.html" class="btn-login">Login</a>
+                    <!-- <a href="" class="btn-administrador">Menu Administrador</a> -->
+                </div>
             </div>
         </nav>
     </header>
@@ -33,45 +36,16 @@
         <input type="text" placeholder="¿Que deseas buscar?" id="input-search">
     </div>
 
-    <!-- **** SECTION NEW PRODUCT ****-->
-    <section class="container container__new-product">
-        <form>
-            <h2>Agregar nuevo producto</h2>
-            <div class="card-img-preview">
-                <img id="img-preview" data-img="img-preview">
-            <div class="card-footer">
-                <input type="file" id="img-uploader" name="url">
-                <progress id="img-upload-bar" value="0" max="100" style="width: 100%"></progress>
-            </div>
-            </div>
-            <div class="form__group">
-                <select class="form__input" name="categoria" id="categoria" required>
-                    <option value="">Categoria</option>
-                    <option value="starwars">StarWars</option>
-                    <option value="consolas">Consolas</option>
-                    <option value="diversos">Diversos</option>
-                </select>
-            </div>
-            <div class="form__group form__producto">
-                <input type="text" name="nombre" id="nombre" class="form__input input" placeholder=" " required>
-                <label for="nombre" class="form__label">Nombre del producto</label>
-                <p class="error">Solo letras y espacios en blanco</p>
-            </div>
-            <div class="form__group form__precio">
-                <input type="text" name="precio" id="precio" class="form__input input" placeholder=" " required>
-                <label for="precio" class="form__label">Precio del producto</label>
-                <p class="error">Solo numeros</p>
-            </div>
-            <div class="form__group">
-                <textarea name="descripcion" id="descripcion" class="form__input input" placeholder=" " required cols="30" rows="3" style="resize: none;"></textarea>
-                <label for="descripcion" class="form__label">Descripcion del producto</label>
-            </div>
-            <input type="hidden" name="id">
-            <button class="btn-agregar-nuevo">Agregar producto</button>
-        </form>
+    <!-- **** SECTION PRODUCTOS ****-->
+    <section class="container ver-productos">
+        <article class="box-producto"></article>
     </section>
 
-    
+    <!-- **** SECTION SIMILAR PRODUCTS **** -->
+    <section class="container similar-products">
+        <h1>Productos similares</h1>
+        <article class="box-similar-products"></article>
+    </section>
 
     <!-- **** SECTION CONTACT **** -->
     <section class="container__contact">
@@ -111,7 +85,28 @@
         <p>2023</p>
     </footer>
     
-<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
-<script type="module" src="../assets/js/admin/registrar-producto.js"></script>
+    <template id="template-producto">
+        <figure class="img">
+            <img src="" alt="">
+        </figure>
+        <div>
+            <h1 class="product-name"></h1>
+            <p class="product-price"></p>
+            <p class="product-description"></p>
+        </div>
+    </template>
+
+    <template id="template-similar-products">
+        <div class="card-similar">
+            <figure class="img">
+                <img src="" alt="">
+            </figure>
+            <p class="similar-name"></p>
+            <p class="similar-price"></p>
+            <a href="" class="similar-product">Ver producto</a>
+        </div>
+    </template>
+
+<script src="../assets/js/ver-producto.js"></script>
 </body>
 </html>

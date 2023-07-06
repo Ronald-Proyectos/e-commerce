@@ -23,7 +23,30 @@ const obtenerTodosLosProductos = async (selector) => {
     }
 }
 
+const obtenerTablaProductos = () => fetch("https://db-wbw6.onrender.com/productos").then((res) => res.ok ? res.json() : Promise.reject(res))
+
+
+const nuevoProducto = async (url, categoria, nombre, precio, descripcion) => {
+    try {
+        const data = await fetch("https://db-wbw6.onrender.com/productos", {
+            method: "POST",
+            headers: { "Content-Type": "application/json; charset=utf-8" },
+            body: JSON.stringify({ url, categoria, nombre, precio, descripcion })
+        })
+
+        if(!data.ok) throw new Error(`${data.status}: no se guardo el registro.`)
+
+        window.location.href = "../pages/registro-exitoso.html"
+    
+
+    } catch (error) {
+        alert(error)
+    }
+}
+
 
 export const adminControllers = {
-    obtenerTodosLosProductos
+    obtenerTodosLosProductos,
+    obtenerTablaProductos,
+    nuevoProducto
 }

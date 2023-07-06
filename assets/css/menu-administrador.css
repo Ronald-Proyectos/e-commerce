@@ -1,0 +1,63 @@
+
+.btn-administrador,
+.agregar-nuevo{
+    color: var(--azul);
+    border: 1px solid var(--azul);
+    text-decoration: none;
+    padding: .8rem;
+    font-weight: 400;
+    transition: .3s ease;
+}
+
+.btn-administrador:hover{
+    background-color: var(--azul);
+    color: var(--blanco);
+}
+
+.agregar-nuevo{
+    background-color: var(--azul);
+    color: var(--blanco);
+}
+
+
+
+.box-input{
+    position: relative;
+}
+
+.box-input input{
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--gris-claro1);
+    color: var(--gris-oscuro);
+    font-size: 16px;
+    padding: .6rem 1rem;
+}
+
+.box-input i{
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    color: var(--gris-claro2);
+}
+
+div.table-responsive{
+    max-height: 500px;
+}
+
+thead{
+    position: sticky;
+    top: 0;
+}
+
+
+
+@media screen and (max-width:375px) {
+    .btn-administrador{
+        padding: .4rem 0;
+        font-size: 14px;
+    }
+}

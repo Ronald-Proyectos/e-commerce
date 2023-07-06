@@ -1,4 +1,4 @@
-@import url("/app/assets/css/style.css");
+@import url("style.css");
 
 body{
     background-color: var(--gris-claro1);
@@ -144,6 +144,7 @@ header{
 
 .product-img img{
     width: 100%;
+    height: 230px;
     object-fit: cover;
 }
 

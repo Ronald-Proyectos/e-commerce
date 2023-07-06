@@ -1,0 +1,78 @@
+.btn-administrador{
+    color: var(--azul);
+    border: 1px solid var(--azul);
+    text-decoration: none;
+    padding: .8rem;
+    font-weight: 400;
+    transition: .3s ease;
+    cursor: pointer;
+}
+
+.btn-administrador:hover{
+    background-color: var(--azul);
+    color: var(--blanco);
+}
+
+
+.box-response{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+
+.box-response article{
+    background-color: var(--blanco);
+    padding: 2rem 1rem;
+    border-radius: 8px;
+}
+
+.box-response article div{
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.box-response article p{
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--gris-oscuro);
+    margin-bottom: 1rem;
+}
+
+.box-response article i{
+    color: var(--azul);
+    border: 2px solid var(--azul);
+    border-radius: 50%;
+    font-size: 3rem;
+    padding: 2rem;
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-response article a{
+    background-color: var(--azul);
+    color: var(--blanco);
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    padding: .8rem 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    float: right;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width:375px) {
+    .btn-administrador{
+        padding: .4rem 0;
+        font-size: 14px;
+    }
+}

@@ -19,7 +19,7 @@ export default async function obtenerProductos(dbURL){
                         </figure>
                         <p class="product-name">${nombre}</p>
                         <p class="product-price">$ ${precio}</p>
-                        <a href="#" id="${id}" class="ver-producto">Ver producto</a>
+                        <a href="../pages/ver-producto.html?id=${id}" id="${id}" class="ver-producto">Ver producto</a>
                     </div>
                 `
                 } 
